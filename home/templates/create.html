@@ -1,0 +1,17 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="pt-br">
+<header>
+    <link rel="stylesheet" href="{% static 'home.css' %}">
+    
+</header>
+<body>
+    <h1>Criar</h1>
+    <form method="post">
+        {%csrf_token%}
+        <input type="text" name="title" id="" placeholder="Título">
+        <input type="text" name="desc" id="" placeholder="Descrição">
+        <input type="submit" value="Criar">
+    </form>
+</body>
+</html>

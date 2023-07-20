@@ -1,0 +1,26 @@
+h1, h2, h3, h4, h5, h6, p, a{
+    color: #f8f8f2;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body{
+    background-color: #282a36;
+}
+
+.button{
+    text-decoration-color: none;
+    text-decoration-line: none;
+    background-color: #44475a;
+    padding: 20px;
+    border-radius: 7px;
+    float: right;
+}
+
+.task{
+    background-color: #44475a;
+    padding: 20px;
+    margin-top: 40px;
+    border-radius: 7px;
+    margin-left: 10%;
+    margin-right: 10%;
+}

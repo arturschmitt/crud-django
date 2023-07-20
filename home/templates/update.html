@@ -1,0 +1,17 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="pt-br">
+<header>
+    <link rel="stylesheet" href="{% static 'home.css' %}">
+    
+</header>
+<body>
+    <h1>Editar</h1>
+    <form method="post">
+        {%csrf_token%}
+        <input type="text" name="title_update" id="" placeholder="Título" value="{{title}}">
+        <input type="text" name="desc_update" id="" placeholder="Descrição" value="{{desc}}">
+        <input type="submit" value="Editar">
+    </form>
+</body>
+</html>
